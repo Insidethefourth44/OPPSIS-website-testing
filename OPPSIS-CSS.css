@@ -1,0 +1,28 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f9fafb;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+header {
+  background: #2563eb; /* blue */
+  color: white;
+  padding: 1rem;
+}
+
+header img.logo {
+    height: 60 px;
+    width: auto;
+    border-radius: 50%;
+}
+button {
+  background: #2563eb;
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+}
+button:hover {
+  background: #1d4ed8;
+}
+
