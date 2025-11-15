@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>OPPSIS Digital Hub – Satyawira 25/26</title>
+
+  <!-- Tailwind (quick CDN for development) -->
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-50 text-gray-800">
+
+  <!-- Header -->
+  <header class="bg-blue-600 text-white p-6 shadow-lg">
+    <div class="max-w-5xl mx-auto">
+      <img src="OPPSIS-Logo.png" alt="OPPSIS Logo" class="h-14 w-auto rounded-full">
+      <h1 class="text-3xl font-bold">OPPSIS Digital Hub – Satyawira 25/26</h1>
+      <p class="mt-2">Aspirations • Transparency • Leadership</p>
+
+      <!-- Navigation -->
+      <nav class="mt-4 space-x-4">
+        <a href="index.html" class="underline">Home</a>
+        <a href="Visi dan Misi.html" class="underline">Visi dan Misi</a>
+        <a href="Programe.html" class="underline">Programe</a>
+        <a href="about.html" class="underline">About</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Main content -->
+  <main class="max-w-5xl mx-auto p-8">
+    <section class="p-8 text-center">
+      <h2 class="text-2xl font-semibold">Selamat Datang!</h2>
+      <p class="mt-2">Menjadikan OPPSIS sebagai jembatan aspirasi siswa Lower Secondary Syafana Islamic School</p>
+    </section>
+
+    <section class="grid grid-cols-1 md:grid-cols-3 gap-6 p-8">
+      <div class="bg-white p-6 rounded-xl shadow hover:shadow-lg">
+        <a href="Events.html" class="text-xl font-bold">Events</a>
+        <p class="mt-2">Event yang di adakan oleh OPPSIS Lower Secondary</p>
+      </div>
+
+      <div class="bg-white p-6 rounded-xl shadow hover:shadow-lg">
+        <a href="members.html" class="text-xl font-bold">Anggota</a>
+        <p class="mt-2">Perkenalkanlah Anggota penyampai aspirasi murid</p>
+      </div>
+
+      <div class="bg-white p-6 rounded-xl shadow hover:shadow-lg">
+        <a href="register.html" class="text-xl font-bold">Pendaftaran</a>
+        <p class="mt-2">Ikut menjadi angkatan aspirasi bagi murid Syafana</p>
+      </div>
+    </section>
+  </main>
+
+  <!-- Optional footer -->
+  <footer class="text-center p-6 text-sm text-gray-600">
+    &copy; OPPSIS Satyawira 25/26
+  </footer>
+
+  <!-- Small JS: example to prevent empty hrefs (safe) -->
+  <script>
+    // If you have links intentionally empty, prevent them from reloading the page:
+    document.querySelectorAll('a[href]').forEach(a => {
+      if (a.getAttribute('href') === '#') {
+        a.addEventListener('click', e => e.preventDefault());
+      }
+    });
+  </script>
+</body>
+</html>
+
