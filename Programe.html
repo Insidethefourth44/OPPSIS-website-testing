@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Program – OPPSIS Digital Hub</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-50 text-gray-800"> 
+
+  <!-- Header -->
+  <header class="bg-blue-600 text-white shadow-lg">
+    <div class="max-w-6xl mx-auto flex flex-col md:flex-row items-center justify-between p-6">
+      <!-- Title -->
+      <div>
+        <a href="Index.html">
+          <img src="OPPSIS-Logo.png" alt="OPPSIS-Logo" class="h-14 w-auto rounded-full">
+        </a>
+        <div>
+          <h1 class="text-2xl md:text-3xl font-bold">OPPSIS Digital Hub – Satyawira 25/26</h1>
+          <p class="text-sm md:text-base mt-1">Aspirations • Transparency • Leadership</p>
+        </div>
+      </div>
+
+      <!-- Navigation -->
+      <nav class="mt-4 md:mt-0 space-x-4 text-sm md:text-base">
+        <a href="Index.html" class="hover:text-yellow-300 transition">Home</a>
+        <a href="Visi dan Misi.html" class="hover:text-yellow-300 transition">Visi & Misi</a>
+        <a href="Programe.html" class="hover:text-yellow-300 transition">Programe</a>
+        <a href="about.html" class="hover:text-yellow-300 transition">About</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <main class="max-w-5xl mx-auto p-8 space-y-12">
+
+    <!-- Program 1 -->
+    <section class="text-center">
+      <h2 class="text-2xl font-semibold mb-4">1. Trash & Dash</h2>
+      <p class="text-gray-700 leading-relaxed">
+        Divisi Environment & Waste dari OPSSIS membentuk sebuah organisasi di bawah naungan OPSSIS pusat 
+        yang berisi relawan siswa-siswi Lower Secondary. Relawan ini akan beraksi bersama OPSSIS 
+        dalam membuang sampah di setiap kelas Lower Secondary setiap hari Jumat setelah salat Dzuhur.
+      </p>
+    </section>
+
+    <!-- Program 2 -->
+    <section class="text-center">
+      <h2 class="text-2xl font-semibold mb-4">2. FORASIS (Formulir Aspirasi Siswa)</h2>
+      <p class="text-gray-700 leading-relaxed">
+        OPSSIS pusat berkolaborasi dengan Divisi Social & Student Aspiration Affairs dalam membuat formulir aspirasi 
+        setiap tiga bulan sekali. Siswa-siswi dapat menyampaikan aspirasinya mengenai sekolah, 
+        apa yang harus diperbaiki, atau apa yang kurang baik di lingkungan sosial Lower Secondary. 
+        Hasil formulir akan dibawa ke rapat paripurna OPSSIS untuk disaring dan diringkas, 
+        kemudian diserahkan kepada manajemen Lower Secondary (Kepala Sekolah/Wakil Kepala Sekolah) untuk ditindaklanjuti.
+      </p>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="text-center p-6 text-sm text-gray-600 bg-gray-100 border-t">
+    &copy; OPPSIS Satyawira 25/26 – One Future, One Fight
+  </footer>
+
+  <!-- JS (optional placeholder) -->
+  <script>
+    // Prevent empty links from refreshing
+    document.querySelectorAll('a[href]').forEach(a => {
+      if (a.getAttribute('href') === '#') {
+        a.addEventListener('click', e => e.preventDefault());
+      }
+    });
+  </script>
+</body>
+</html>
